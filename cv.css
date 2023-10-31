@@ -1,0 +1,117 @@
+h2 {
+	font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "•";
+	font-size: 20px;
+    color: #FF9F6B;
+    display: inline-block;
+    width: 10px; 
+    margin-left: -38px;
+}
+
+.icon {
+	color: #FF9F6B;
+	font-size: 28px;
+	margin-right: 10px;
+}
+
+.star-filled {
+    color: #FF9F6B;
+    font-size: 24px;
+}
+
+.star-empty {
+    color: #D9D9D9;
+    font-size: 24px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 15px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #FF9F6B;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.columna p {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columna t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	text-align: justify;
+}
+
+.columna {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+    flex: 1;
+    background-color: #fff;
+    margin: 0px;
+    padding: 15px;
+}
+
+.columna:nth-child(2) {
+    flex: 2;
+}
+
+body {
+	margin: 0;
+}
+.header {
+    background-color: #D0DBDF;
+	margin: 0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+    position: relative;
+}
+
+.header-text {
+	font-family: "Inter", Inter, sans-serif;
+	font-size: 64px;
+    background-color: #9DAFBE;
+    padding: 10px;
+    text-align: center;
+	right: 0;
+    position: absolute;
+    top: 166px;
+    width: 81.55%;
+}
+
+.header-text p {
+    margin: 0;
+}
+
+.perfil-image {
+    display: block;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
